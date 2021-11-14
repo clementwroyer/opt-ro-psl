@@ -1,0 +1,1 @@
+The slides for this course are available online at https://slides.com/pierreablin/autodiff-5b5243

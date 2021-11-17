@@ -20,3 +20,5 @@
 - **Numerical Optimization, Second Edition.** J. Nocedal and S. J. Wright, Springer-Verlag, 2006.
 - **Optimization for Data Analysis**. S. J. Wright, in *The Mathematics of Data*, IAS/Park City Mathematics Series, 2016.
 - **Optimization methods for large-scale machine learning**. L. Bottou, F. E. Curtis and J. Nocedal, *SIAM Review*, 2018.
+
+Un bon livre qui couvre toutes les notions d'algèbre linéaire et d'analyse nécessaires pour comprendre l'optimisation: https://mml-book.github.io/

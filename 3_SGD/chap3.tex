@@ -31,6 +31,7 @@
 \newcommand{\Zbb}{\mathbb{Z}}
 \newcommand{\Rbb}{\mathbb{R}}
 \newcommand{\Rn}{\mathbb{R}^n}
+\newcommand{\Rd}{\mathbb{R}^d}
 \newcommand{\Rm}{\mathbb{R}^m}
 \newcommand{\Grass}{\text{Grass}}
 \newcommand{\red}{\textcolor{red}}
@@ -55,6 +56,7 @@
 \newcommand{\trace}{\mathrm{trace}}
 \newcommand{\transpose}{^\top}
 \newcommand{\rank}{\operatorname{rank}}
+\newcommand{\minimize}{\operatorname{minimize}}
 \newcommand{\lambdamin}{\lambda_\mathrm{min}}
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\dis}{\displaystyle}
@@ -96,15 +98,52 @@
 \usepackage{xspace}
 \newcommand{\themename}{\textbf{\textsc{metropolis}}\xspace}
 
-\title{Title}  
-\date{Place\\  \today}
-\author{Florentin Goyens\\
-joint with\\
-  Anyone ?\\}
+\title{Partie 3: Methode du gradient stochastique}  
+\date{12 octobre 2022}
+\author{Florentin Goyens}
 
 \begin{document}
 
 
 \maketitle
+
+\begin{frame}{What is a learning problem ? }
+
+Intro 
+
+\end{frame}
+
+
+\begin{frame}{Learning and training set}
+\begin{itemize}
+\item Learning is an optimization problem over the training set, in the hope that it generalizes to unseen data.  
+\end{itemize}
+\end{frame}
+
+\begin{frame}{The finite sum minimization problem}
+\begin{align*}
+ \minimize_{x\in \Rd} &\sum_{i=1}^n (h(x_i) - y_i)^2 =  \sum_{i=1}^n  f_i(x)\\
+\end{align*}
+
+\begin{align*}
+F(x) &= \sum_{i=1}^n  f_i(x)\\
+\end{align*}
+\begin{align*}
+\nabla F(x) &= \sum_{i=1}^n  \nabla f_i(x)\\
+\end{align*}
+\end{frame}
+\begin{frame}{Title}
+\begin{align*}
+\minimize_{x\in \Rd} F(x) = \sum_{i=1}^n  f_i(x)
+\end{align*}
+Gradient descent method:
+\begin{align*}
+x_{k+1} = x_k - \gamma \nabla F(x_k)
+\end{align*}
+Stochastic gradient method: 
+\begin{align*}
+x_{k+1} = x_k - \gamma \nabla f_i(x_k)
+\end{align*}
+\end{frame}
 
 \end{document}

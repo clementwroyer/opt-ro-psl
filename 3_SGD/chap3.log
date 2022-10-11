@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  10 OCT 2022 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021) (preloaded format=pdflatex 2022.2.18)  10 OCT 2022 18:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1304,25 +1304,11 @@ File: pgfcalendar.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 ))) (/usr/local/texlive/2021/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 103.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 103.
-
-
 (/usr/local/texlive/2021/texmf-dist/tex/latex/beamertheme-metropolis/pgfplotsth
 emetol.sty
 Package: pgfplotsthemetol 2017/01/23 PGFplots colors based on Paul Tol's SRON t
 echnical note
-)
-No file chap3.aux.
+) (./chap3.aux)
 \openout1 = `chap3.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 105.
@@ -1343,6 +1329,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 105.
 LaTeX Font Info:    ... okay on input line 105.
+
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1407,6 +1394,7 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 105.
 LaTeX Info: Redefining \pageref on input line 105.
 LaTeX Info: Redefining \nameref on input line 105.
+ (./chap3.out) (./chap3.out)
 \@outlinefile=\write7
 \openout7 = `chap3.out'.
 
@@ -1449,19 +1437,33 @@ loading the todonotes package. on input line 105.
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.17} (current compat level: 1.9).
 
-No file chap3.nav.
-
-Underfull \hbox (badness 10000) in paragraph at lines 108--108
-
- []
-
-
+(./chap3.nav)
 Overfull \vbox (13.79993pt too high) detected at line 108
  []
 
 [1
 
 {/usr/local/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+] [3
+
+]
+LaTeX Font Info:    Trying to load font information for U+msa on input line 134
+.
+ (/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 134
+.
+
+(/usr/local/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [4
+
+] [5
+
+]
 \tf@nav=\write8
 \openout8 = `chap3.nav'.
 
@@ -1473,30 +1475,37 @@ Overfull \vbox (13.79993pt too high) detected at line 108
 
 
 (./chap3.aux)
-
-Package rerunfilecheck Warning: File `chap3.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `chap3.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
+Package rerunfilecheck Info: File `chap3.out' has not changed.
+(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 44507 strings out of 478994
- 1027924 string characters out of 5858184
- 1509690 words of memory out of 5000000
- 61158 multiletter control sequences out of 15000+600000
- 408035 words of font info for 33 fonts, out of 8000000 for 9000
+ 44687 strings out of 478994
+ 1032126 string characters out of 5858184
+ 1515711 words of memory out of 5000000
+ 61306 multiletter control sequences out of 15000+600000
+ 412375 words of font info for 45 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 112i,7n,131p,1828b,609s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}
-</usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></
-usr/local/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
-Output written on chap3.pdf (1 page, 34931 bytes).
+ 112i,13n,131p,1828b,778s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+}{/usr/local/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}<
+/usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></
+usr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></u
+sr/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr
+/local/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/l
+ocal/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loc
+al/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/tex
+live/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm7.pfb></usr/local/
+texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/local/te
+xlive/2021/texmf-dist/fonts/type1/public/cm-super/sfbx1440.pfb></usr/local/texl
+ive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb></usr/local/texliv
+e/2021/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb></usr/local/texlive/
+2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on chap3.pdf (5 pages, 148580 bytes).
 PDF statistics:
- 68 PDF objects out of 1000 (max. 8388607)
- 32 compressed objects within 1 object stream
- 3 named destinations out of 1000 (max. 500000)
+ 141 PDF objects out of 1000 (max. 8388607)
+ 89 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 500000)
  187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

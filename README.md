@@ -19,6 +19,7 @@
 - **Advances and Trends in Optimization with Engineering Applications.** T. Terlaky, M. F. Anjos, S. Ahmed (eds), MOS-SIAM Series on Optimization, 2017.
 - **Convex Optimization.** S. Boyd and L. Vandenberghe, Cambridge University Press, 2004.
 - **Numerical Optimization, Second Edition.** J. Nocedal and S. J. Wright, Springer-Verlag, 2006.
+- **High-Dimensional Data Analysis with Low-Dimensional Models.** J. Wright and Y. Ma, Cambrige University Press, 2022.
 - **Optimization for Data Analysis**. S. J. Wright and B. Recht, Cambridge University Press, 2022.
 - **Optimization methods for large-scale machine learning**. L. Bottou, F. E. Curtis and J. Nocedal, *SIAM Review*, 2018.
 
